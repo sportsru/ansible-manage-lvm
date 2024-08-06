@@ -1,6 +1,5 @@
 ---
-# - name: Test role
-# hosts: localhost
-# connection: local
-# roles:
-#   - role: ansible-manage-lvm
+- hosts:      localhost
+  connection: local
+  roles:
+    - ansible-manage-lvm
